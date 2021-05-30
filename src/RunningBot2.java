@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class RunningBot2 {
     int choice, choice2;
-
+//Бла
     public void ChooseRunningType() throws IOException {
         boolean ChooseRunningType;
         do {
