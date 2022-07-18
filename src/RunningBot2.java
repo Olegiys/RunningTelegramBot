@@ -5,7 +5,8 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class RunningBot2 {
-    int choice, choice2;
+    String choice;
+    int choice2;
 //Бла
     public void ChooseRunningType() throws IOException {
         boolean ChooseRunningType;
@@ -236,7 +237,9 @@ public class RunningBot2 {
         System.out.println("Вы пробежите " + distance + " метров если будете бежать " + TimeHours+ " часов "+ TimeMinutes+
                 " минут и "+ TimeSeconds + " секунд в темпе " + TempoMinute+"'"+TempoSeconds+"''" );
     }
+    public void Exit(){
 
+    };
     public static void main(String[] args) throws IOException {
         RunningBot2 NewRequest = new RunningBot2();
         NewRequest.ChooseRunningType();
