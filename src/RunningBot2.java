@@ -19,15 +19,15 @@ public class RunningBot2 {
             System.out.print("Bыбepитe (q - выход): ");
             Scanner scan = new Scanner(System.in);
             try {
-                choice = scan.nextInt();
-                if (choice == 1) {
+                choice = scan.nextLine();
+                if (choice.equals("1")) {
                     KnownParameters();
                     break;
-                } else if (choice == 2) {
+                } else if (choice.equals("2")) {
                     System.out.println("В данный момент, к сожалению, данная функция не доступна\n");
                     ChooseRunningType = true;
                 }
-                else if (choice== 333 ){
+                else if (choice.equals("q")){
                     break;
                 }
                 else {
